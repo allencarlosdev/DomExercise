@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dom Exercises</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css" integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../css/dom_exercises.css">
+    <link rel="stylesheet" href="../css/dom_exercises2.css">
 </head>
 <body>
     <header class="header">
-        <h1>Dom exercises</h1>
+        <h1>Dom exercises digital clock and alarm</h1>
     </header>
     <button class="panel-btn hamburger hamburger--spin" type="button">
         <span class="hamburger-box">
@@ -28,7 +28,14 @@
     </aside>
     <main>
         <section id="section1" class="section">
-            <h2>Section 1</h2>
+            <h2>Digital clock and Alarm</h2>
+            <div id="clock"></div>
+            <div>
+                <button id="activate-clock">Start Clock</button>
+                <button id="deactivated-clock">Stop Clock</button>
+                <button id="activate-alarm">Start Alarm</button>
+                <button id="deactivated-alarm">Stop Alarm</button>
+            </div>
         </section>
         <section id="section2" class="section">
             <h2>Section 2</h2>
@@ -43,6 +50,6 @@
             <h2>Section 5</h2>
         </section>
     </main>
-    <script src="../js/index_dom.js" type="module"></script>
+    <script src="../js/index_dom2.js" type="module"></script>
 </body>
 </html>
