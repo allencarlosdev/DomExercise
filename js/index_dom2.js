@@ -4,5 +4,6 @@ const d = document;
 d.addEventListener("DOMContentLoaded", (e)=>{
     hamburgerMenu(".panel-btn", ".panel", ".menu a");
     digitalClock("#clock", "#activate-clock", "#deactivated-clock");
+    alarm("../assets/alarma_2.mp3","#activate-alarm", "#deactivated-alarm")
 });
  
