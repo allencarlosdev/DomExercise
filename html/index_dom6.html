@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" data-dark>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Exercises</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css" integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/dom_exercises6.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Keyboard Events</h1>
+    </header>
+    <button class="panel-btn hamburger hamburger--spin" type="button">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+    <aside class="panel">
+        <nav class="menu">
+            <a href="#section1">Digital clock and Alarm</a>
+            <a href="#section2">Keyboard Events</a>
+            <a href="#section3">Countdown</a>
+            <a href="#section4">Section 4</a>
+            <a href="#section5">Section 5</a>
+        </nav>
+    </aside>
+    <main>
+        <section id="section1" class="section">
+            <h2>Digital clock and Alarm</h2>
+            <div id="clock"></div>
+            <div>
+                <button id="activate-clock">Start Clock</button>
+                <button id="deactivated-clock">Stop Clock</button>
+                <button id="activate-alarm">Start Alarm</button>
+                <button id="deactivated-alarm">Stop Alarm</button>
+            </div>
+        </section>
+        <section id="section2" class="section">
+            <h2>Keyboard Events</h2>
+            <article class="stage">
+                <div class="ball"></div>
+            </article>
+        </section>
+        <section id="section3" class="section">
+            <h2>Countdown</h2>
+            <div id="countdown"></div>
+        </section>
+        <section id="section4" class="section">
+            <h2>Section 4</h2>
+        </section>
+        <section id="section5" class="section">
+            <h2>Section 5</h2>
+        </section>
+    </main>
+    <button class="scroll-top-btn hidden">&#11014;</button>
+    <button class="dark-theme-btn">🌙</button>
+    <script src="../js/index_dom6.js" type="module"></script>
+</body>
+</html>
