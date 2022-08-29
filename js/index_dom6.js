@@ -12,10 +12,11 @@ d.addEventListener("DOMContentLoaded", (e)=>{
     alarm("../assets/alarma_2.mp3","#activate-alarm", "#deactivated-alarm")
     countdown("countdown", "2022-10-24 00:00:00", " Happy Birthday Carlos Allen");
     scrollTopButton(".scroll-top-btn");
-    darkTheme(".dark-theme-btn", "dark-mode");
 });
 
 d.addEventListener("keydown", e =>{
     shortCuts(e);
     moveBall(e,".ball", ".stage")
-})
+});
+
+darkTheme(".dark-theme-btn", "dark-mode");
